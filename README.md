@@ -39,4 +39,4 @@ Para ello use la variable computada optionsOrder
 
 Puede usar estilos css propios para el componente, no es necesario el uso de estilos de bootstrap
 
-4. Guarde los cambios en su repositorio
+3. Guarde los cambios en su repositorio

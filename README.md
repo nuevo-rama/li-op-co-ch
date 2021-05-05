@@ -1,4 +1,4 @@
-# test-frontend-lo
+# Code Challenge Frontend NUxt
 
 ## Build Setup
 

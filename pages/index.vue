@@ -107,7 +107,7 @@ export default {
     
     async init(){
       this.options = []
-      this.postalCode = '1227'
+      this.postalCode = ''
     },
 
     async send(){

@@ -3,6 +3,9 @@
 ## Build Setup
 
 ```bash
+# create .env
+$ cp .env-example .env
+
 # install dependencies
 $ npm install
 
@@ -18,3 +21,22 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+## Ejercicio
+
+1. En pages/index.vue ordene y liste los elementos de options con el siguiente criterio:
+	
+	- Total de menor a mayor
+
+Para ello use la variable computada optionsOrder
+
+2. En components/QuoteOption.vue construya el componente partiendo del objeto value (props), debe mostrar el tipo de envío, el costo y el tiempo de entrega, para ello use los siguientes atributos:
+	
+	- Descripcion 
+	- Total (si es 0 imprimir "Gratis")
+	- PlazoEntrega
+
+Puede usar estilos css propios para el componente, no es necesario el uso de estilos de bootstrap
+
+4. Guarde los cambios en su repositorio

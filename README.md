@@ -25,13 +25,15 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Ejercicio
 
-1. En pages/index.vue ordene y liste los elementos de options con el siguiente criterio:
+1. Clone el repositorio en su entorno local
+
+2. En pages/index.vue ordene y liste los elementos de options con el siguiente criterio:
 	
 	- Total de menor a mayor
 
 Para ello use la variable computada optionsOrder
 
-2. En components/QuoteOption.vue construya el componente partiendo del objeto value (props), debe mostrar el tipo de envío, el costo y el tiempo de entrega, para ello use los siguientes atributos:
+3. En components/QuoteOption.vue construya el componente partiendo del objeto value (props), debe mostrar el tipo de envío, el costo y el tiempo de entrega, para ello use los siguientes atributos:
 	
 	- Descripcion 
 	- Total (si es 0 imprimir "Gratis")
@@ -39,4 +41,4 @@ Para ello use la variable computada optionsOrder
 
 Puede usar estilos css propios para el componente, no es necesario el uso de estilos de bootstrap
 
-3. Guarde los cambios en su repositorio
+4. Guarde los cambios en su repositorio

@@ -1,4 +1,4 @@
-# Code Challenge Frontend NUxt
+# Code Challenge Frontend Nuxt
 
 ## Build Setup
 

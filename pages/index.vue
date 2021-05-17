@@ -8,7 +8,7 @@
               Cotizador de envíos
             </h3>
           </div>
-          <template v-if="optionsOrder.length > 0">
+          <template v-if="optionsOrder.length > 0"> 
             <div class="text-center detail">
               <h6 class="h6 text-center">
                 Código postal: <strong>"{{ postalCode }}"</strong>
@@ -55,7 +55,7 @@
           </template>
           <div class="options">
             <quote-option
-              v-for="(option, index) in optionsOrder"
+              v-for="(option, index) in optionsOrder"  
               :key="`option-${index}`"
               :value="option"
             /> 
@@ -89,9 +89,9 @@ export default {
 
   computed:{
     optionsOrder(){
-      /**
-       * Code
-      */
+      //code
+      this.options.sort ((a,b) => a.Total - b.Total);
+      //code
       return this.options
     },
     txtSubmit(){
